@@ -11,7 +11,7 @@ namespace BugGuardian.WebForms.TestWebApp
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            var shouldBeInteger = int.Parse("not an integer");
         }
     }
 }
