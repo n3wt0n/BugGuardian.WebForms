@@ -9,7 +9,11 @@ It supports projects with .Net Framework 4.0 and above.
 
 ###Installation###
 
-The **BugGuardian.WebForms** library will be available on NuGet
+The **BugGuardian.WebForms** library is available on [NuGet](https://www.nuget.org/packages/DBTek.BugGuardian.WebForms).
+Just search *BugGuardian.WebForms* in the **Package Manager GUI** or run the following command in the **Package Manager Console**:
+```
+Install-Package DBTek.BugGuardian.WebForms
+```
 
 **WARNING**: If you are experiencing an error like *"BugGuardian.WebForms already has a dependency defined for XXX"*, update your NuGet client to the latest version
 
