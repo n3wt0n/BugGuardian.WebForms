@@ -1,4 +1,4 @@
-﻿using System;
+﻿using System.Threading.Tasks;
 using System.Web;
 
 namespace DBTek.BugGuardian.WebForms.Modules
@@ -10,13 +10,16 @@ namespace DBTek.BugGuardian.WebForms.Modules
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        public override void Report(object sender, EventArgs e)
-        {                                    
-            using (var creator = new Creator())
+        public override async Task ReportException(HttpContext ctx)
+        {
+            var exception = ctx.Server.GetLastError();
+            if(exception != null)
             {
-                ///Implemented as synchronous because Asp.net 4 doesn't support async http modules
-                creator.AddBug(HttpContext.Current?.Server?.GetLastError());
-            }
+                using (var creator = new Creator())
+                {                    
+                    await creator.AddBugAsync(exception);
+                }
+            }            
         }        
     }
 }
