@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BugGuardian.WebForms", "BugGuardian.WebForms\BugGuardian.WebForms.csproj", "{B309BF2F-A001-420A-9FF8-12D0EA56AE1F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestApp", "TestApp", "{1C75A91D-0815-4753-9AE2-76F61C4FE101}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BugGuardian.WebForms.TestWebApp", "TestApp\BugGuardian.WebForms.TestWebApp\BugGuardian.WebForms.TestWebApp.csproj", "{71691E3D-69AE-4866-830E-1DAF534E098A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B309BF2F-A001-420A-9FF8-12D0EA56AE1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B309BF2F-A001-420A-9FF8-12D0EA56AE1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B309BF2F-A001-420A-9FF8-12D0EA56AE1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B309BF2F-A001-420A-9FF8-12D0EA56AE1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71691E3D-69AE-4866-830E-1DAF534E098A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71691E3D-69AE-4866-830E-1DAF534E098A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71691E3D-69AE-4866-830E-1DAF534E098A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71691E3D-69AE-4866-830E-1DAF534E098A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{71691E3D-69AE-4866-830E-1DAF534E098A} = {1C75A91D-0815-4753-9AE2-76F61C4FE101}
+	EndGlobalSection
+EndGlobal
