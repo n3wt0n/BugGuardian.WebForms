@@ -27,4 +27,4 @@ If you encounter some issues trying this library, please let me know through the
 
 
 ###Credits###
-I have to say "Thank you" to ***Marco Minerva*** ([@marcominerva](https://twitter.com/marcominerva), [https://github.com/marcominerva](https://github.com/marcominerva)) for the suggestion about the Async implementation in the HttpModule.
+I have to thanks ***Marco Minerva*** ([@marcominerva](https://twitter.com/marcominerva), [https://github.com/marcominerva](https://github.com/marcominerva)) for the suggestion about the Async implementation in the HttpModule.
