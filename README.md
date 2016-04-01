@@ -25,3 +25,6 @@ Refer to the [BugGuardian project documentation](https://github.com/n3wt0n/BugGu
 
 If you encounter some issues trying this library, please let me know through the [Issues page](https://github.com/n3wt0n/BugGuardian.WebForms/issues) and I'll fix the problem as soon as possible!
 
+
+###Credits###
+I have to thank Marco Minerva ([@marcominerva](https://twitter.com/marcominerva), [https://github.com/marcominerva](https://github.com/marcominerva)) for the suggestion about the Async implementation in the HttpModule.
