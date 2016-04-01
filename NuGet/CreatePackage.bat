@@ -1,0 +1,1 @@
+NuGet.exe pack ./Package/DBTek.BugGuardian.WebForms.nuspec -BasePath ./Package
