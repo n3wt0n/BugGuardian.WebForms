@@ -15,9 +15,9 @@ namespace DBTek.BugGuardian.WebForms.Modules
             var exception = ctx.Server.GetLastError();
             if (exception != null)
             {
-                using (var creator = new Creator())
+                using (var manager = new BugGuardianManager())
                 {
-                    await creator.AddTaskAsync(exception);
+                    await manager.AddTaskAsync(exception);
                 }
             }
         }

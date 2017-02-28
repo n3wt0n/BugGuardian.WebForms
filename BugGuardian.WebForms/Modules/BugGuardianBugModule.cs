@@ -13,13 +13,13 @@ namespace DBTek.BugGuardian.WebForms.Modules
         public override async Task ReportException(HttpContext ctx)
         {
             var exception = ctx.Server.GetLastError();
-            if(exception != null)
+            if (exception != null)
             {
-                using (var creator = new Creator())
-                {                    
-                    await creator.AddBugAsync(exception);
+                using (var manager = new BugGuardianManager())
+                {
+                    await manager.AddBugAsync(exception);
                 }
-            }            
-        }        
+            }
+        }
     }
 }
