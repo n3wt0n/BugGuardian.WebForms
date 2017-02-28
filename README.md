@@ -3,9 +3,9 @@
 
 Easily track you Asp.net WebForms exceptions on VSTS and TFS
 -------------------------------------------------------
-**BugGuardian.WebForms** is an extension for [*BugGuardian*](https://github.com/n3wt0n/BugGuardian) (a library that allows to easily create a Bug or a Task work item on your *Visual Studio Team Services* account or on your on-premises *Team Foundation Server 2015* in the case your application throws an Unhandled Exception) specifically written to support Asp.net WebForms applications. 
+**BugGuardian.WebForms** is an extension for [*BugGuardian*](https://github.com/n3wt0n/BugGuardian) (a library that allows to easily create a Bug or a Task work item on your *Visual Studio Team Services* account or on your on-premises *Team Foundation Server 2015+* in the case your application throws an Unhandled Exception) specifically written to support ASP.NET WebForms applications. 
 
-It supports projects with .Net Framework 4.0 and above.
+It supports projects with .Net Framework 4.5 and above.
 
 
 ###Installation###
