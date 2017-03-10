@@ -19,7 +19,8 @@ namespace DBTek.BugGuardian.WebForms.Modules
                 ConfigurationHelper.Password,
                 ConfigurationHelper.CollectiontName,
                 ConfigurationHelper.ProjectName,
-                ConfigurationHelper.AvoidMultipleReport);
+                ConfigurationHelper.AvoidMultipleReport,
+                ConfigurationHelper.AssignToCurrentIteration);
         }
 
         public void Init(HttpApplication httpApplication)
