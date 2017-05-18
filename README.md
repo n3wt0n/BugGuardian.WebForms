@@ -8,7 +8,7 @@ Easily track you ASP.NET WebForms exceptions on VSTS and TFS
 It supports projects with .Net Framework 4.5 and above.
 
 
-###Installation###
+### Installation ###
 
 The **BugGuardian.WebForms** library is available on [NuGet](https://www.nuget.org/packages/DBTek.BugGuardian.WebForms).
 Just search *BugGuardian.WebForms* in the **Package Manager GUI** or run the following command in the **Package Manager Console**:
@@ -19,17 +19,17 @@ Install-Package DBTek.BugGuardian.WebForms
 **WARNING**: If you are experiencing an error like *"BugGuardian.WebForms already has a dependency defined for XXX"*, update your NuGet client to the latest version
 
 
-###Usage###
+### Usage ###
 
 Refer to the [project documentation](https://github.com/n3wt0n/BugGuardian.WebForms/wiki/Home) to find more information about this library.
 
 Refer to the [BugGuardian project documentation](https://github.com/n3wt0n/BugGuardian/wiki/Home) to find examples about that.
 
 
-###Support###
+### Support ###
 
 If you encounter some issues trying this library, please let me know through the [Issues page](https://github.com/n3wt0n/BugGuardian.WebForms/issues) and I'll fix the problem as soon as possible!
 
 
-###Credits###
+### Credits ###
 I have to thanks ***Marco Minerva*** ([@marcominerva](https://twitter.com/marcominerva), [https://github.com/marcominerva](https://github.com/marcominerva)) for the suggestion about the Async implementation in the HttpModule.
