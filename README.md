@@ -19,13 +19,15 @@ Just search *BugGuardian.WebForms* in the **Package Manager GUI** or run the fol
 Install-Package DBTek.BugGuardian.WebForms
 ```
 
-**WARNING**: If you are experiencing an error like *"BugGuardian.WebForms already has a dependency defined for XXX"*, update your NuGet client to the latest version
+> **WARNING**: If you are experiencing an error like *"BugGuardian.WebForms already has a dependency defined for XXX"*, update your NuGet client to the latest version
 
 ### Usage
 
 Refer to the [project documentation](https://github.com/n3wt0n/BugGuardian.WebForms/wiki/Home) to find more information about this library.
 
 Refer to the [BugGuardian project documentation](https://github.com/n3wt0n/BugGuardian/wiki/Home) to find examples about that.
+
+> **WARNING**: From Dec 9, 2019 onwards, Azure DevOps will not support "Alternate Credentials" anymore. Please be sure to use a "Personal Access Token" instead (more info: https://devblogs.microsoft.com/devops/azure-devops-will-no-longer-support-alternate-credentials-authentication/)
 
 ### Support
 
