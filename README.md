@@ -1,6 +1,6 @@
 # BugGuardian.WebForms
 
-![Build Status](https://dbtek.visualstudio.com/_apis/public/build/definitions/31dcc845-6a11-47d7-90a5-1c340cebf0f1/34/badge)
+![CI Status](https://github.com/n3wt0n/BugGuardian.WebForms/workflows/CI/badge.svg)
 [![Release](https://img.shields.io/github/release/n3wt0n/BugGuardian.WebForms.svg)](https://github.com/n3wt0n/BugGuardian.WebForms/releases/latest)
 [![License](https://img.shields.io/github/license/n3wt0n/BugGuardian.WebForms.svg)](https://github.com/n3wt0n/BugGuardian.WebForms/blob/master/LICENSE)
 
