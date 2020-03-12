@@ -28,4 +28,4 @@ jobs:
       run: nuget restore BugGuardian.WebForms.sln
 
     - name: Build the Solution
-      run: msbuild BugGuardian.WebForms.sln
+      run: msbuild BugGuardian.WebForms.sln /p:Configuration=Release
