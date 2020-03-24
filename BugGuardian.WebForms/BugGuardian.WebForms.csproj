@@ -76,7 +76,7 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>if $(ConfigurationName) == Release (
-xcopy "DBTek.BugGuardian.WebForms.dll" "$(SolutionDir)NuGet\Package\lib" /R /Q /Y
+xcopy "DBTek.BugGuardian.WebForms.dll" "$(SolutionDir)NuGet\Package\lib\" /R /Q /Y
 )</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
